@@ -1,0 +1,54 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    background: #f3f3f3;
+}
+
+h1 {
+    text-align: center;
+}
+
+.list {
+    background: #a46262;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    font-size: 24px;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    color: white;
+}
+
+li:nth-child(-n+3) {
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+/* --- Öğrendiklerim Özet --- */
+
+/* justify-content: center;
+   Bir kutunun (div, ul vs.) İÇERİĞİNİ yatayda ortalamak için kullanılır.
+   display: flex veya display: grid ile birlikte çalışır. */
+
+/*  margin: 0 auto;
+   Kutunun (örneğin bir div’in) KENDİSİNİ yatayda ortalamak için kullanılır.
+   div’e width verildiğinde sayfa ortasına oturtur. */
+
+/* HATIRLAMA TRİCKİ:
+   Div’in içindekini mi hizalamak istiyorum?" → justify-content / align-items
+  "Div’in kendisini mi ortalamak istiyorum?" → margin: 0 auto */
+
+/* display: flex; ➤ Esnek kutu sistemi, satır içinde hizalama yapar.
+   display: grid; ➤ Satır + sütun yapısıyla daha kapsamlı yerleşim sağlar. */
