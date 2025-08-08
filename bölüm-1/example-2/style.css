@@ -1,0 +1,122 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sidebar {
+    background: #555;
+    color: white;
+    width: 20%;
+    padding: 20px;
+}
+
+.content {
+    background: #f4f4f4;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.rightbar {
+    background: #999;
+    color: white;
+    width: 20%;
+    padding: 20px;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* --- Öğrendiklerim Özet ve Kullanım Örnekleri ---
+
+1. display: flex;
+   Kutuları yanyana veya alt alta dizmek için kullandık.
+   Örneğin, header menüsündeki butonları yan yana sıralamak için:
+   .menu { display: flex; }
+   Ana eksen hizalama için justify-content,
+   çapraz eksen için align-items kullanılır.
+
+2. flex-direction: row | column;
+   Varsayılan row (yatay),
+   bir yan menüyü dikey yapmak istediğimizde column kullandık.
+   Örnek: .sidebar { display: flex; flex-direction: column; }
+
+3. justify-content:
+   - flex-start: başta hizalar (default)
+   - center: ortalar, mesela butonları ortalamak için: justify-content: center;
+   - flex-end: sonda hizalar
+   - space-between: aralıkları eşitler, navigasyon menüsünde kullandık.
+   - space-around: çevresinde boşluk bırakır
+
+4. align-items:
+   - flex-start: üstte hizalar
+   - center: dikey ortalar, örn: kart içi içeriklerde
+   - flex-end: altta hizalar
+
+5. align-self:
+   Bir kutuyu diğerlerinden farklı hizalamak için kullandık.
+   Örnek: .special-item { align-self: flex-end; }
+
+6. position:
+   - relative: kutunun normal yerine göre kaydırma için
+   - absolute: en yakın relative ebeveyne göre sabit konumlandırma
+   - fixed: sayfada sabit kalır, scroll etkilemez
+   Örnek: Sayfa köşesine sabit buton:
+   .btn { position: fixed; bottom: 20px; right: 20px; }
+
+7. margin, padding, text-align:
+   - Elemanlar arası boşluk ve içerik hizalaması için.
+   Örnek: Başlık ortalamak için: text-align: center;
+   Butonlar arası boşluk için margin-right: 10px;
+
+8. Örnek:
+   Sayfa ortasına içerik koymak için:
+   .container {
+     display: flex;
+     justify-content: center;  /* yatay ortala */
+/*   align-items: center;      /* dikey ortala */
+/*   height: 100vh;     /* tam sayfa yüksekliği */
+/*}
+
+*/
+
