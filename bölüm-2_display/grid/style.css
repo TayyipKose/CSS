@@ -1,0 +1,7 @@
+/*
+display:grid;
+Ne: Normalde kutunun içindeki öğeler blok gibi alt alta ya da inline gibi yan yana gelir. kutunun içinde görünmez bir tablo açar, çocukları hücrelere dizer.
+Neden: İçerikleri hem yatay hem dikey eksende ayrı ayrı kontrol etmek istediğinde grid gerekir.
+Ne dene: Boş bir .box yaratıp display: grid uygula. İçine 4 öğe koy—ne olduğunu gözlemle.
+Checkpoint: “Bu container içindeki elemanlar artık grid hücrelerinde davranıyor” diyebiliyorsun.
+*/

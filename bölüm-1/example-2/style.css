@@ -4,64 +4,73 @@
     padding: 0;
 }
 
+/* ---- ANA YAPI ---- */
 body {
     font-family: Arial, sans-serif;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: flex;              /* body'yi dikey eksende (column) böldük */
+    flex-direction: column;     /* header, içerik, footer üst üste */
 }
 
+/* ---- ÜST KISIM ---- */
 .header {
     background: #333;
     color: white;
     padding: 20px;
-    text-align: center;
+    text-align: center;         /* Başlığı ortaladık */
 }
 
+/* ---- ORTA BÖLME (YAN YANA) ---- */
 .main-container {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
+    flex: 1;                    /* kalan yüksekliği kaplasın */
+    display: flex;              /* yan yana 3 kutu (sol, içerik, sağ) */
+    flex-direction: row;        /* yatay dizilim */
 }
 
-
+/* Sol Menü */
 .sidebar {
     background: #555;
     color: white;
-    width: 20%;
+    width: 20%;                 /* ekranın %20’si sol menü */
     padding: 20px;
 }
 
+/* İçerik Alanı */
 .content {
     background: #f4f4f4;
-    flex: 1;
+    flex: 1;                    /* ortadaki alan esnek, kalan boşluğu kaplasın */
     padding: 20px;
-    text-align: center;
+    text-align: center;         /* içerik metinlerini ortaladık */
 }
 
+/* Sağ Panel */
 .rightbar {
     background: #999;
     color: white;
-    width: 20%;
+    width: 20%;                 /* ekranın %20’si sağ panel */
     padding: 20px;
 }
 
+/* ---- ALT KISIM ---- */
 .footer {
     background: #333;
     color: white;
     padding: 10px;
-    text-align: center;
+    text-align: center;         /* ortalama */
 }
 
+/* ---- YUKARI ÇIK BUTONU ---- */
 .scroll-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    position: fixed;   /* tarayıcı penceresine sabitleniyor */ /* scroll’dan bağımsız, hep köşede sabit */
+    bottom: 20px;      /* pencerenin alt kenarından 20px yukarı */
+    right: 20px;       /* pencerenin sağ kenarından 20px sola */
+    bottom: 20px;               /* alttan 20px */
+    right: 20px;                /* sağdan 20px */
     background: #007bff;
     color: white;
     padding: 10px 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px;         /* köşeleri yuvarladık */
     cursor: pointer;
 }
 

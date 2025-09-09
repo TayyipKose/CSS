@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="904ec730-e123-4b70-8e7e-4ad9c28891d0" name="Changes" comment="example-0">
+      <change afterPath="$PROJECT_DIR$/bölüm-2_display/grid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bölüm-2_display/grid/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CSS.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bölüm-1/example-2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bölüm-1/example-2/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="30YMWV1NljXn0K5ihE7e4cKUE4w" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\CSS\section-1\example-1" />
+      <recent name="C:\Users\Public\CSS\section-1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="904ec730-e123-4b70-8e7e-4ad9c28891d0" name="Changes" comment="" />
+      <created>1753800085474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753800085474</updated>
+      <workItem from="1753800086924" duration="60000" />
+      <workItem from="1753867268521" duration="5385000" />
+      <workItem from="1753949470595" duration="1345000" />
+      <workItem from="1753962081071" duration="826000" />
+      <workItem from="1753984422153" duration="1444000" />
+      <workItem from="1754133800231" duration="793000" />
+      <workItem from="1754207826180" duration="924000" />
+      <workItem from="1754480549082" duration="2425000" />
+      <workItem from="1754556730396" duration="15000" />
+      <workItem from="1754556792367" duration="543000" />
+      <workItem from="1755592075669" duration="2809000" />
+      <workItem from="1755759033460" duration="1728000" />
+      <workItem from="1756394032855" duration="536000" />
+      <workItem from="1757419024705" duration="7243000" />
+    </task>
+    <task id="LOCAL-00001" summary="css repo created">
+      <option name="closed" value="true" />
+      <created>1753800125702</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753800125702</updated>
+    </task>
+    <task id="LOCAL-00002" summary="section1-example1">
+      <option name="closed" value="true" />
+      <created>1753962449570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753962449570</updated>
+    </task>
+    <task id="LOCAL-00003" summary="css section-1 rtf file completed">
+      <option name="closed" value="true" />
+      <created>1754214458322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754214458322</updated>
+    </task>
+    <task id="LOCAL-00004" summary="...">
+      <option name="closed" value="true" />
+      <created>1755597907315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755597907315</updated>
+    </task>
+    <task id="LOCAL-00005" summary="example-0">
+      <option name="closed" value="true" />
+      <created>1755763010154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755763010154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="css repo created" />
+    <MESSAGE value="section1-example1" />
+    <MESSAGE value="css section-1 rtf file completed" />
+    <MESSAGE value="..." />
+    <MESSAGE value="example-0" />
+    <option name="LAST_COMMIT_MESSAGE" value="example-0" />
+  </component>
+</project>

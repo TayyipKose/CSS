@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Display Grid</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: auto 100px 250px ;
+            grid-auto-rows: minmax(50px, 200px);
+            align-items: stretch; /*  yerine start */
+        }
+
+        .item {
+            background: blueviolet;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="item item1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A commodi consequuntur culpa, deserunt distinctio dolore eaque est facere hic iure labore laborum maiores maxime minus molestias natus nemo nesciunt nihil nobis nostrum nulla omnis quasi quibusdam quisquam sapiente sed sint sunt veniam vitae voluptatibus! Animi aspernatur beatae consequatur cumque cupiditate eaque, error hic incidunt inventore ipsum itaque magnam magni minima molestias necessitatibus odit optio porro praesentium provident quasi quis quisquam quo reiciendis repellendus sint sunt tempora totam veritatis vero voluptatibus! Animi consequatur nobis numquam soluta? Aliquid aspernatur ea fugit laboriosam minus pariatur quibusdam repellendus rerum sunt veritatis! Optio tempora, ut?</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
+    <div class="item item4">4</div>
+    <div class="item item5">5</div>
+    <div class="item item6">6</div>
+    <div class="item item7">7</div>
+    <div class="item item8">8</div>
+    <div class="item item9">9</div>
+</div>
+</body>
+</html>
