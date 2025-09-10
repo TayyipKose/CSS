@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="904ec730-e123-4b70-8e7e-4ad9c28891d0" name="Changes" comment="example-0">
-      <change afterPath="$PROJECT_DIR$/bölüm-2_display/grid/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bölüm-2_display/grid/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CSS.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bölüm-1/example-2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bölüm-1/example-2/style.css" afterDir="false" />
+    <list default="true" id="904ec730-e123-4b70-8e7e-4ad9c28891d0" name="Changes" comment="css display:grid; e1">
+      <change afterPath="$PROJECT_DIR$/bölüm-2_display/flexbox/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bölüm-2_display/grid/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bölüm-2_display/grid/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Dockerfile" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,7 +81,8 @@
       <workItem from="1755592075669" duration="2809000" />
       <workItem from="1755759033460" duration="1728000" />
       <workItem from="1756394032855" duration="536000" />
-      <workItem from="1757419024705" duration="7243000" />
+      <workItem from="1757419024705" duration="7416000" />
+      <workItem from="1757488757396" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="css repo created">
       <option name="closed" value="true" />
@@ -129,7 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755763010154</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="css display:grid; e1">
+      <option name="closed" value="true" />
+      <created>1757428878602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757428878602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="css display:grid; e1">
+      <option name="closed" value="true" />
+      <created>1757428887433</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757428887433</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +152,7 @@
     <MESSAGE value="css section-1 rtf file completed" />
     <MESSAGE value="..." />
     <MESSAGE value="example-0" />
-    <option name="LAST_COMMIT_MESSAGE" value="example-0" />
+    <MESSAGE value="css display:grid; e1" />
+    <option name="LAST_COMMIT_MESSAGE" value="css display:grid; e1" />
   </component>
 </project>
