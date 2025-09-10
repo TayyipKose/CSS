@@ -6,34 +6,78 @@
 </head>
 <style>
 
-  .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  * {
+    background: gray;
   }
-  .item {
-    background: blueviolet;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-  }
+    .container {
+        display: flex;
+      gap: 10px;
+    }
 
-  .item1 {
-
-  }
+    .item {
+        background: blueviolet;
+        color: white;
+        padding: 10px;
+        height: 20px;
+        width: 200px;
+        flex: 1;
+    }
 </style>
 <body>
 
 <div class="container">
-  <div class="item item1">1</div>
-  <div class="item item2">2</div>
-  <div class="item item3">3</div>
-  <div class="item item4">4</div>
-  <div class="item item5">5</div>
-  <div class="item item6">6</div>
-  <div class="item item7">7</div>
-  <div class="item item8">8</div>
-  <div class="item item9">9</div>
+    <div class="item item1">1</div>
+    <div class="item item2">2</div>
+    <div class="item item3">3</div>
 </div>
 </body>
 </html>
+
+<!--
+FLEXBOX ÖĞRENCİ NOTLARI
+
+1️⃣ Temel Mantık
+- display: flex → Container’ı flex konteyner yapar.
+- Container içindeki tüm doğrudan çocuklar flex item olur.
+- Tek boyutlu düzen sağlar: yatay (row) veya dikey (column).
+- Ana eksende ve çapraz eksende öğeleri kontrol edebilirsin.
+
+2️⃣ Ana ve Çapraz Ekseni
+- Ana eksen (main axis): Flex yönü.
+  * flex-direction: row → soldan sağa (default)
+  * flex-direction: row-reverse → sağdan sola
+  * flex-direction: column → yukarıdan aşağı
+  * flex-direction: column-reverse → aşağıdan yukarı
+- Çapraz eksen (cross axis): Ana eksene dik olan eksen.
+
+3️⃣ Justify-Content (Ana eksende hizalama)
+- flex-start → başa yasla (default)
+- flex-end → sona yasla
+- center → ortala
+- space-between → öğeler arası eşit boşluk, kenarlarda boşluk yok
+- space-around → öğeler arası ve kenarlarda eşit boşluk
+- space-evenly → tüm boşluk eşit
+
+4️⃣ Align-Items (Çapraz eksende hizalama)
+- flex-start → üst/başta
+- flex-end → alt/sonda
+- center → ortala
+- stretch → tüm yüksekliği/alanı kapla (default)
+- baseline → metin tabanına hizala
+
+5️⃣ Align-Self
+- Tek bir öğeyi çapraz eksende farklı hizalamak için.
+- Örn: .item { align-self: flex-end; }
+
+6️⃣ Flex-Wrap
+- Tek satıra sığmayan öğeleri bir sonraki satıra geçirir.
+- nowrap → tek satır (default)
+- wrap → taşan öğeler yeni satıra
+- wrap-reverse → ters yönde yeni satır
+
+7️⃣ Özet Mantık
+- Container: display, direction, justify-content, align-items, flex-wrap
+- Item: margin, padding, flex-grow, flex-shrink, flex-basis, align-self
+- Ana fikir: Flexbox ile tek boyutlu düzeni hem yatay hem dikey eksende kolayca kontrol edersin.
+-->
+
