@@ -1,0 +1,27 @@
+:root {
+    --main-color: #a22a2a;
+    --black-color: #121212;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: Georgia;
+    transition: 0.4s ease;
+}
+
+html {
+    /* 1rem = 16px varsayılıyor.
+       %62.5 yaparak 1rem = 10px olacak şekilde ayarlıyoruz. */
+    font-size: 62.5%;
+    overflow-x: hidden; /* sağdan menü açılınca yatay scroll çıkmasın diye */
+}
+
+
+.logo img {
+    height: 7rem;
+}
